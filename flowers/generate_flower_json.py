@@ -146,4 +146,4 @@ if __name__ == '__main__':
         flower_db[species] = {'variants': variants, 'matings': matings}
 
     with open('../data/flower_data.json', 'w') as fp:
-        json.dump(flower_db, fp, indent=4)
+        json.dump(flower_db, fp)
